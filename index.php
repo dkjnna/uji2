@@ -76,13 +76,13 @@
             </div>
 
             <!-- ABOUT -->
-
+            <?php require ('includes/about.php')?>
 
             <!-- TICKET -->
 
 
             <!-- LAYOT -->
-             <?php require ('includes/layout.php')?>
+            <?php require ('includes/layout.php')?>
 
             <!-- GALLERY -->
 

@@ -299,6 +299,69 @@ html{
     font-family: 'Montserrat', serif;
 }
 
+/* ABOUT */
+.about{
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    display: flex;
+    margin-bottom: 100px;
+    gap: 40px;
+    box-sizing: border-box;
+}
+
+.about img{
+    width: 400px;
+    height: 500px;
+}
+
+.content-about{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 60%;
+}
+
+.content-about .judul{
+    font-size: 1.5rem;
+    font-weight: 800;
+    border-bottom: yellow 2px solid;
+    width: 350px;
+    font-family: 'Rubik', serif;
+    letter-spacing: 10px;
+}
+
+.content-about h1{
+    font-size: 2rem;
+    font-weight: 800;
+    font-family: 'Rubik', serif;
+}
+
+.content-about p{
+    font-family: 'Rubik', serif;
+}
+
+.content-about .more{
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    justify-content: space-between;
+    font-family: 'Rubik', serif;
+}
+
+.content-about .more div h4{
+    font-weight: 800;
+    font-family: "Rubik", serif;
+}
+
+.content-about .info-about{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Rubik', serif;
+}
+
+
+
 /* LAYOUT */
 .layout{
     width: 100vw;
