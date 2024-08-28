@@ -84,6 +84,10 @@
             <!-- LAYOT -->
              <?php require ('includes/layout.php')?>
 
+            <!-- GALLERY -->
+
+            <?php require ('includes/gallery.php')?>
+
             <!-- FOOTER -->
             <?php require ('includes/footer.php')?>
         </div>
