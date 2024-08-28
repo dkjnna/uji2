@@ -85,6 +85,7 @@
              <?php require ('includes/layout.php')?>
 
             <!-- FOOTER -->
+            <?php require ('includes/footer.php')?>
         </div>
 
 

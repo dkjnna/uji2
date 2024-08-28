@@ -325,3 +325,53 @@ html{
     height: auto;
     margin-bottom: 20px;
 }
+
+/* FOOTER */
+
+.footer{
+    width: 100vw;
+    height: auto;
+    background-color: black;
+    padding: 1rem;
+}
+
+.footer-atas{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    height: 300px;
+    color: white;
+    font-family: 'Aleo', serif;
+    letter-spacing: 6px;
+}
+
+.footer-atas h4{
+    font-family: 'Alumni Sans Inline One';
+    color: white;
+    font-size: 2rem;
+    letter-spacing: 1rem;
+    font-weight: 400;
+}
+
+.footer-atas img{
+    width: 300px;
+    height: 300px;
+}
+
+.footer-bawah{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 3rem;
+    align-items: center;
+    border-top: white 1px solid;
+    padding-top: 14px;
+}
+
+.footer-bawah .copy{
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-family: 'Aleo', serif;
+    letter-spacing: 8px;
+}
