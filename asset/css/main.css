@@ -300,4 +300,28 @@ html{
 }
 
 /* LAYOUT */
+.layout{
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.layout .judul{
+    text-align: center;
+}
+
+.isi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.isi .stadion{
+    width: 50%;
+    height: auto;
+    margin-bottom: 20px;
+}

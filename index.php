@@ -82,6 +82,7 @@
 
 
             <!-- LAYOT -->
+             <?php require ('includes/layout.php')?>
 
             <!-- FOOTER -->
         </div>
